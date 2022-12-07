@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "timestamp": 1670400136309,
+  "index": "/bhhb/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bhhb/favicon.ico",
+        "/bhhb/index.html",
+        "/bhhb/main.c72fa62feb1d46db.js",
+        "/bhhb/polyfills.01ab5fa3a56cf981.js",
+        "/bhhb/runtime.6795f4c7f348193d.js",
+        "/bhhb/styles.6dad3eece9919135.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/bhhb/assets/apple-touch-icon.png",
+        "/bhhb/assets/bhhb.png",
+        "/bhhb/assets/icon-192-maskable.png",
+        "/bhhb/assets/icon-192.png",
+        "/bhhb/assets/icon-512-maskable.png",
+        "/bhhb/assets/icon-512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/bhhb/assets/apple-touch-icon.png": "08d0771426d5f21fa654e853709e757fe5c1780d",
+    "/bhhb/assets/bhhb.png": "5730f4cb3e7c898d81f65f2e5dbd7ce20d61e573",
+    "/bhhb/assets/icon-192-maskable.png": "8a01c4fb68a5cb77b48d799aea70e9ae069c04fd",
+    "/bhhb/assets/icon-192.png": "929858f9bed4a08a385de91ee60e08b0965dad2f",
+    "/bhhb/assets/icon-512-maskable.png": "0e48727efa9a91ba9a04ee6de65e329f470e8e4e",
+    "/bhhb/assets/icon-512.png": "49aa78aaa6a196cf70606163c2aedfcbe8c79e42",
+    "/bhhb/favicon.ico": "8184af0ce54ab85bf9d0b9f92364330dcda88853",
+    "/bhhb/index.html": "30542d92fe5c6ac68c083cc4d7d74da6110243e3",
+    "/bhhb/main.c72fa62feb1d46db.js": "d1c8a9e2bb0c5060523373561c68bdf815610081",
+    "/bhhb/polyfills.01ab5fa3a56cf981.js": "727e5bfbf272fe0fbfcebd94044f5c51ddc70246",
+    "/bhhb/runtime.6795f4c7f348193d.js": "4c111d7c759a3c06b1bdd676aa7fdbc3ed4a8487",
+    "/bhhb/styles.6dad3eece9919135.css": "20af463b9268f8d1a39cae576aa96aedae73edb9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
