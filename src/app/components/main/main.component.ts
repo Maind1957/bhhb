@@ -89,10 +89,21 @@ export class MainComponent implements OnInit {
     return [header, body.join("")]
   }
 
+  private static decodeBase64(base64) {
+    const converted_function = atob(base64);
+    const length = converted_function.length;
+    const bytes = new Uint8Array(length);
+    for (let i = 0; i < length; i++) {
+      bytes[i] = converted_function.charCodeAt(i);
+    }
+    const decoder = new TextDecoder;
+    return decoder.decode(bytes);
+  }
+
   private atobReqRes(query: any): string {
     try {
       if (query[0].$.base64 === 'true') {
-        return atob(query[0]._);
+        return decodeBase64(query[0]._);
       }
       return query[0]._;
     } catch (error) {
