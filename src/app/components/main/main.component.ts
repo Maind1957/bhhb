@@ -89,7 +89,7 @@ export class MainComponent implements OnInit {
     return [header, body.join("")]
   }
 
-  private decodeBase64(base64) {
+  private decodeBase64(base64: any): string {
     const converted_function = atob(base64);
     const length = converted_function.length;
     const bytes = new Uint8Array(length);
